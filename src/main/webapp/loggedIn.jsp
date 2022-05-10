@@ -20,11 +20,7 @@
         if(userName.equals("shrey") && password.equals("123456"))
             output.println("You are logged in.");
         else
-        {
             output.println("Username or password is incorrect.");
-            //RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
-            //rd.forward(request, response);
-        }
     %>
     <%=userName%>
 </body>
